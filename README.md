@@ -13,7 +13,7 @@ What comes next in this README:
 2. Which datasets can you find in this Github repo
 3. How to run the code
 4. References
-
+---
 
 1. Which scripts can you find in this Github repo
 
@@ -22,12 +22,12 @@ IRELAND.py: runs the original IRELAND algorithm as shown in Figure 1 in [1].
 IRELAND_nonoise.py: the algorithm was tested on datasets that do not contain any noise. Shortly, this means that the parameter UB is set to 0, making the algorithm simpler.
 IRELAND_featureSubsets.py: to speed up the algorithm, experiments were performed where the sub problem was solved while including only a subset of all the features. The results in [1] show that this does not lead to improvements.
 BRCG.py: in [1], IRELAND was compared to the algorithm BRCG [2]. For a fair comparison between the two algorithms, an implementation of BRCG was necessary using the same assumptions and optimization algorithm as for IRELAND.
-
+---
 
 2. Which datasets can you find in this Github repo
 
 In [1], four data collections are described. The synthetic datasets without noise and with noise can be found in nonoise_datasets.tar.gz and noise_datasets.tar.gz, respectively. The dataset where the genomes were obtained from the 1000 Genomes project with classes based on simulated DNF rules can be found in 1000Genomes_DNF.tar.gz. 1000Genomes_PEPS contains dataset datasets derived from the data made available by [3]. The genomes in the 1000Genomes were originally collected by [4].
-
+---
 
 3. How to run the code
 
@@ -85,7 +85,7 @@ BRCG.py:
 - maximum runtime of the algorithm;
 - K (maximum number of clauses selected by the master problem);
 - M (maximum number of features in a clause).
-
+---
 
 4. References
 
