@@ -23,13 +23,14 @@ IRELAND_nonoise.py: the algorithm was tested on datasets that do not contain any
 IRELAND_featureSubsets.py: to speed up the algorithm, experiments were performed where the sub problem was solved while including only a subset of all the features. The results in [1] show that this does not lead to improvements.
 BRCG.py: in [1], IRELAND was compared to the algorithm BRCG [2]. For a fair comparison between the two algorithms, an implementation of BRCG was necessary using the same assumptions and optimization algorithm as for IRELAND.
 
-
+---
 2. Which datasets can you find in this Github repo
-
+---
 In [1], four data collections are described. The synthetic datasets without noise and with noise can be found in nonoise_datasets.tar.gz and noise_datasets.tar.gz, respectively. The dataset where the genomes were obtained from the 1000 Genomes project with classes based on simulated DNF rules can be found in 1000Genomes_DNF.tar.gz. 1000Genomes_PEPS contains dataset datasets derived from the data made available by [3]. The genomes in the 1000Genomes were originally collected by [4].
 
+---
 3. How to run the code
-
+---
 To be able to run the script, the following programs need to be installed:
 - Python 3
 - Gurobi (through gurobipy)
@@ -84,10 +85,10 @@ BRCG.py:
 - maximum runtime of the algorithm;
 - K (maximum number of clauses selected by the master problem);
 - M (maximum number of features in a clause).
+
 ---
-
 4. References
-
+---
 [1] Balvert, M (2023) Iterative Rule Extension for Logic Analysis of Data (IRELAND): a MILP-based heuristic to derive interpretable binary classifiers from large datasets.
 [2] Dash S, Gunluk O, Wei D (2018) Boolean decision rules via column generation. Advances in Neural Information Processing Systems, 4655–4665.
 [3] Bayat A, Piotr S, O’Brian AR, Dunne R, Hosking B, Jain Y, Hosking C, Luo OJ, Twine N, Bauer DC (2020) Variantspark: Cloud-based machine learning for association study of complex phenotype and large-scale genomic data. GigaScience Database 9(8).
