@@ -90,6 +90,9 @@ BRCG.py:
 4. References
 ---
 [1] Balvert, M (2023) Iterative Rule Extension for Logic Analysis of Data (IRELAND): a MILP-based heuristic to derive interpretable binary classifiers from large datasets.
+
 [2] Dash S, Gunluk O, Wei D (2018) Boolean decision rules via column generation. Advances in Neural Information Processing Systems, 4655–4665.
+
 [3] Bayat A, Piotr S, O’Brian AR, Dunne R, Hosking B, Jain Y, Hosking C, Luo OJ, Twine N, Bauer DC (2020) Variantspark: Cloud-based machine learning for association study of complex phenotype and large-scale genomic data. GigaScience Database 9(8).
+
 [4] 1000 Genomes Project Consortium (2015) A global reference for human genetic variation. Nature 526.
