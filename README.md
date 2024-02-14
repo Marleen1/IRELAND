@@ -49,7 +49,7 @@ IRELAND.py:
 - folder where the results will be stored;
 - folder where runfiles will be stored;
 - maximum number of threads that Gurobi is allowed to use for each sub problem;
-- maximum runtime of the algorithm;
+- maximum runtime of a single iteration of the sub problem;
 - N_s size of the random subset of samples included in each iteration of the sub problem (see [1] for details);
 - K (maximum number of clauses selected by the master problem);
 - M (maximum number of features in a clause).
